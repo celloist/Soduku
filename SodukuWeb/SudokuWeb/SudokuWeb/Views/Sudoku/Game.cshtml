@@ -1,0 +1,58 @@
+﻿@model SudokuWeb.Models.Game
+
+@{
+    ViewBag.Title = "Sudoku";
+    int counter = 0;
+    
+    if (Model.game.CheckWon())
+    {
+        <h2>Gewonnen!!!!<img src="http://i.imgur.com/5ftZpNq.png" /></h2>
+    }
+}
+
+@Html.ActionLink("New", "NewGame", "Sudoku", new { @class = "test" })
+@Html.ActionLink("Load", "LoadGame", "Sudoku", new { @class = "test" })
+@Html.ActionLink("Save", "SaveGame", "Sudoku", new { @class = "test" })
+@* <button class="test" onclick="@Html.Action("NewGame", "Sudoku")">New</button> 
+<button class="test" name="Load" value="1">Load</button>
+<button class="test" name="Save" value="1">Save</button> *@
+<br />
+
+@using (Html.BeginForm("Verify", "Sudoku"))
+{
+    
+    //@Html.HiddenFor(model => model.ListField)
+
+for (var i = 0; i < @Model.IntField.Count; i++)
+{
+    int rotop;
+    //@Html.HiddenFor(model => model.ListField[i])
+    
+    if (Int32.TryParse(Model.IntField[i], out rotop))
+    {
+        @Html.TextBoxFor(model => model.IntField[i], new {@readonly=true, @style = ""});
+    }
+    else
+    {
+        @Html.TextBoxFor(model => model.IntField[i], new { @maxlength = 1, @style = ""});
+    }
+    
+    if (counter!= 0 && (counter+1)%9 == 0)
+    {        
+        if ((counter+1)%9 == 0)
+        {
+            <br />
+        }
+    }
+    
+    counter++;
+}
+
+<button class="test" type="submit">Verify</button>
+@Html.ActionLink("Hint", "Hint", "Sudoku", new { @class = "test" })
+@Html.ActionLink("Cheat", "Cheat", "Sudoku", new { @class = "test" })
+//@Html.ActionLink("Verify", "Verify", "Sudoku", new { @class = "test", @type = "submit" })
+}
+@* <button class="test" name="Verify" value="1">Verify</button>
+<button class="test" name="Hint" value="1">Hint</button>
+<button class="test" name="Cheat" value="1">Cheat</button> *@

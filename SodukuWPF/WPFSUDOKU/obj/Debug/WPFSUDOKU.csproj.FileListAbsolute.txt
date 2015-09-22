@@ -1,0 +1,16 @@
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\bin\Debug\WPFSUDOKU.exe.config
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\bin\Debug\WPFSUDOKU.exe
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\bin\Debug\WPFSUDOKU.pdb
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\WPFSUDOKU.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\Interop.Sudoku.dll
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\WPFSUDOKU.csproj.ResolveComReference.cache
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\MainWindow.baml
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\MainWindow.g.cs
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\App.g.cs
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\WPFSUDOKU_MarkupCompile.cache
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\WPFSUDOKU.g.resources
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\WPFSUDOKU.Properties.Resources.resources
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\WPFSUDOKU.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\WPFSUDOKU.exe
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\WPFSUDOKU.pdb
+\\vmware-host\Shared Folders\School\BLOK 6\INMODL-4\Mod4\Sudoko\WPFSUDOKU\obj\Debug\WPFSUDOKU_MarkupCompile.lref
